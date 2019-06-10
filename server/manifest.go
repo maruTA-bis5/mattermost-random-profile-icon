@@ -4,6 +4,6 @@ var manifest = struct {
 	Id      string
 	Version string
 }{
-	Id:      "com.mattermost.sample-plugin",
-	Version: "0.1.0",
+	Id:      "net.bis5.mattermost.randomprofile",
+	Version: "0.1.0-dev",
 }
