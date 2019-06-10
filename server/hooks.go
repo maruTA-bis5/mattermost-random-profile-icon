@@ -11,7 +11,7 @@ import (
 func (p *Plugin) UserHasBeenCreated(c *plugin.Context, user *model.User) {
 	p.API.LogInfo("UserHasBeenCreated called")
 	defer p.API.LogInfo("UserHasBeenCreated exited")
-	
+
 	providerName := p.getConfiguration().ImageProvider
 	imageProvider := NewImageProvider(providerName)
 	if imageProvider == nil {
