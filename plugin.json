@@ -3,7 +3,7 @@
     "name": "Random Profile Image Provider",
     "description": "The Mattermost plugin provides feature of generate profile image that random pattern like Identicon.",
     "version": "0.1.0-dev",
-    "min_server_version": "5.6.0",
+    "min_server_version": "5.10.0",
     "server": {
         "executables": {
             "linux-amd64": "server/dist/plugin-linux-amd64",
