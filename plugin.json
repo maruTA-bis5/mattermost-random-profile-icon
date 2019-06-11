@@ -20,8 +20,8 @@
             "type": "dropdown",
             "default": "default",
             "options": [
-                {"display_name": "Default", "value": "default"},
-                {"display_name": "go-identicon", "value": "identicon"}
+                {"display_name": "Mattermost's default", "value": "default"},
+                {"display_name": "dgryski/go-identicon", "value": "identicon"}
             ]
         }]
     }
